@@ -18,6 +18,7 @@ async def on_ready():
             f'{hillbot.user} is connected to the following guild:\n'
             f'{guild.name}(id: {guild.id})'
         )
+        await guild.system_channel.send('Online and checking emails.')
 
 @hillbot.event
 async def on_voice_state_update(member, before, after):
