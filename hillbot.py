@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 HILLBOT_TOKEN = os.getenv('HILLBOT_TOKEN')
-BOOPLESNOOTS = os.getenv('BOOPLESNOOTS')
-CEDAR_RAPIDS = os.getenv('CEDAR_RAPIDS')
 
 hillbot = discord.Client()
 
